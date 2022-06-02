@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Home</title>
+</head>
+
+<body onload="load()">
+  <div id="loader">
+    <img src="static/loder.gif" alt="">
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mx-5" href="index.html"><img src="static/logo/logo.png" style="width:90px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto font-weight-bold">
+        <li class="nav-item active">
+          <a class="nav-link active mx-3" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item  mx-3">
+          <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item  mx-3">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+
+
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="text-right bg-light mx-4">
+        <i class="fa fa-instagram mx-0" aria-hidden="true"></i>
+        <i class="fa fa-twitter mx-2" aria-hidden="true"></i>
+        <i class="fa fa-facebook mx-0" aria-hidden="true"></i>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <a href="shop.html">
+
+          <img class="d-block w-100" src="static/slides/slide9.jpg" alt="Second slide">
+        </a>
+
+      </div>
+      <div class="carousel-item active">
+        <a href="shop.html">
+          <img class="d-block w-100" src="static/slides/slide6.jpg" alt="First slide">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <div class="offer">
+            <p>50% OFF<br>Limited Offer</p>
+
+            <h5 class="timer">
+              <button class="btn btn-danger">
+                <div id="hour">
+                  12
+                </div>
+              </button>
+
+              <button class="btn btn-danger">
+                <div id="minute">
+                  45
+                </div>
+              </button>
+
+              <button class="btn btn-danger">
+                <div id="second">
+                  00
+                </div>
+              </button>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+                <img class="d-block w-100" src="static/slides/bg.jpg" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                 <h5 class="">50% OFF</h5>
+                  <p>50% OFF</p> -->
+    </div>
+  </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  <div class="container">
+
+    <div class="hedding text-center my-5">
+      <h1>Fashion Store</h1>
+    </div>
+    <div class="card-deck my-4">
+
+      <div class="card my-2">
+        <a href="#men">
+          <img class="card-img-top" src="static/products/category-1.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Men's wear </h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <!--   -->
+        </div>
+      </div>
+      <div class="card ">
+        <a href="#women">
+
+          <img class="card-img-top" src="static/products/category-3.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Women's wear</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, animi. Consequuntur
+            necessitatibus modi fugiat libero hic non quia quas eum, facere tenetur.</p>
+          <!--   -->
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="static/products/product-10.jpg" height="400" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Kids's wear</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, animi. Consequuntur
+            necessitatibus modi fugiat libero hic non quia quas eum, facere tenetur.</p>
+          <!--   -->
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+  <section id="women">
+
+    <div class="my-5 text-center">
+      <h1>Women's Fashion</h1>
+    </div>
+    <div class="banner my-5 mx-1">
+      <div class="continer-fluid">
+        <img src="static/slides/slide4.jpg" style="width: 100%;" alt="">
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <div class="card-deck mx-3">
+    <div class="card">
+      <img src="static/products/p1.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">T-shirt</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/p2.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">shoes</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/p3.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Casual pant</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/p4.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">T-shirt</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200.</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/p5.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Casual pant</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200.</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <div class="card-deck mx-3 my-4">
+    <div class="card">
+      <img src="static/products/p6.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Shoes</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/p7.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Shoes</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/p8.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Socks</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/p9.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">wacth</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200.</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/category-3.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">wacth</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200.</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <br>
+  <br>
+  <br>
+
+  <section id="men">
+
+    <div class="my-5 text-center">
+      <h1>Mens's Fashion</h1>
+    </div>
+    <div class="banner my-5 ">
+      <div class="continer-fluid">
+        <img src="static/slides/slide8.jpg" style="width: 100%;" class="banner" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="card-deck mx-4 my-4">
+    <div class="card">
+      <img src="static/products/product-1.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">T-shirt</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 700</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/product-2.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">shoes</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 190</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/product-3.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Casual pant</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 300</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/product-4.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">T-shirt</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 990.</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/product-12.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Casual pant</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 1000</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <div class="card-deck mx-3 my-4">
+    <div class="card">
+      <img src="static/products/product-11.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Shoes</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 200</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/product-10.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Shoes</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 300</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/product-7.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Socks</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 250</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/product-8.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">wacth</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 230</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="static/products/product-9.jpg" height="350" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">wacth</h5>
+        <p><i class="fa fa-inr" aria-hidden="true"></i> 450</p>
+        <button class="btn btn-danger ">Buy</button>
+        <button class="btn btn-danger">Add to cart</button>
+
+      </div>
+    </div>
+
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer class="page-footer font-small text-light bg-dark">
+
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="/" class="text-danger"> rohan nikale</a>
+    </div>
+
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="js/js.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

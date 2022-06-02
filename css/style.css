@@ -1,0 +1,244 @@
+#loader {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: none;
+    z-index: 777;
+    background-image: url(static/loder.gif);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    position: fixed;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.timer button{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+.carousel-caption p{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+.card-deck{
+    cursor: pointer;
+}
+.active a {
+    color: red !important;
+}
+
+
+.card {
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+
+body {
+    background-color: rgb(195, 195, 195);
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.carousel-control-prev {
+    display: none;
+}
+
+.carousel-control-next {
+    display: none;
+}
+
+
+.contact-banner {
+    background-image: url(../static/slides/slide2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    width: 37%;
+
+    margin: 0px 10rem;
+    background-color: white;
+    box-shadow: 2px 6px 10px rgb(255, 147, 147);
+
+}
+
+.form form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 37px 3rem;
+    font-weight: bold;
+}
+
+.form h1 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.contact-banner label {
+    margin-left: 10px;
+}
+
+.input input {
+    width: 15vw;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgba(255, 213, 207, 0.42);
+    padding-left: 17px;
+}
+
+
+.message textarea {
+    border: none;
+    background-color: rgba(255, 213, 207, 0.42);
+    padding: 17px;
+
+    margin-left: 10px;
+    width: 30vw;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.form button {
+    margin: 10px;
+
+    background-color: red;
+    border: none;
+    width: 10vw;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mobile-banner {
+    width: 100%;
+    display: none;
+}
+.carousel-caption{
+display: flex;
+justify-content: center;
+
+}
+.offer{
+    background-color: white;
+    width: 399px;
+}
+
+@media (max-width:1657px) {
+
+    .form {
+        width: 40%;
+        margin: 0px 10rem;
+        background-color: white;
+        box-shadow: 2px 6px 10px rgb(255, 147, 147);
+
+    }
+}
+
+@media (max-width:1159px) {
+    .form button {
+
+        width: 100%;
+        height: 50px;
+
+    }
+
+    .mobile-banner {
+        width: 100%;
+        display: block;
+    }
+
+    .form {
+        width: 100%;
+        margin: 0;
+
+    }
+    .form {
+        width: 100%;
+        margin: 10x;
+
+    }
+
+    .contact-banner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .form form {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .input input {
+        width: 95%;
+        height: 40px;
+        border: none;
+        margin-bottom: 10px;
+        background-color: rgba(255, 213, 207, 0.42);
+        padding-left: 17px;
+    }
+
+
+    .message textarea {
+        border: none;
+        background-color: rgba(255, 213, 207, 0.42);
+        padding: 17px;
+        width: 95%;
+
+    }
+}
+
+@media (max-width: 768px) {
+
+    .form {
+        width: 100%;
+        margin: 0;
+
+
+    }
+
+.banner img{
+    height: 40vh;
+}
+
+    .contact-banner {
+        width: 100%;
+        height: 100%;
+    }
+
+}
