@@ -226,7 +226,9 @@ justify-content: center;
         
         
     }
-
+    .carousel-item img{
+        height: 70vh;
+    }
     .banner img{
         height: 40vh;
     }
@@ -238,7 +240,9 @@ justify-content: center;
     
 }
 @media (max-width: 500px) {
-
+    .carousel-item img{
+        height: 37vh;
+    }
     .form form {
         display: flex;
         flex-wrap: wrap;
