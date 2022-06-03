@@ -157,53 +157,48 @@ justify-content: center;
     background-color: white;
     width: 399px;
 }
-
 @media (max-width:1657px) {
-
+    
     .form {
         width: 40%;
         margin: 0px 10rem;
         background-color: white;
         box-shadow: 2px 6px 10px rgb(255, 147, 147);
-
+        
     }
 }
 
 @media (max-width:1159px) {
     .form button {
-
+        
         width: 100%;
         height: 50px;
-
+        
     }
-
+    
     .mobile-banner {
         width: 100%;
         display: block;
     }
-
+    
     .form {
+        
         width: 100%;
         margin: 0;
-
+        
     }
-    .form {
-        width: 100%;
-        margin: 10x;
-
-    }
-
+    
     .contact-banner {
         width: 100%;
         height: 100%;
     }
-
+    
     .form form {
         display: flex;
         flex-direction: column;
         
     }
-
+    
     .input input {
         width: 95%;
         height: 40px;
@@ -212,33 +207,65 @@ justify-content: center;
         background-color: rgba(255, 213, 207, 0.42);
         padding-left: 17px;
     }
-
-
+    
+    
     .message textarea {
         border: none;
         background-color: rgba(255, 213, 207, 0.42);
         padding: 17px;
         width: 95%;
-
+        
     }
 }
 
 @media (max-width: 768px) {
-
+    
     .form {
         width: 100%;
         margin: 0;
-
-
+        
+        
     }
-
-.banner img{
-    height: 40vh;
-}
-
+    .carousel-item img{
+        height: 70vh;
+    }
+    .banner img{
+        height: 40vh;
+    }
+    
     .contact-banner {
         width: 100%;
         height: 100%;
     }
-
+    
+}
+@media (max-width: 500px) {
+    .carousel-item img{
+        height: 58vh;
+    }
+    .form form {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 37px 1rem;
+        font-weight: bold;
+    }
+    
+    
+    .input input {
+        width: 95%;
+        height: 40px;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        background-color: rgba(255, 213, 207, 0.42);
+        padding-left: 17px;
+    }
+    .message textarea{
+        width: 95%;
+        margin-left: 0px;
+    }
+    .form button{
+        width: 95%;
+        margin-left: 0px;
+    }
 }
